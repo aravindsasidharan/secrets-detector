@@ -4,7 +4,6 @@ import CodePaste from './components/CodePaste';
 import Results from './components/Results';
 import History from './components/History';
 import { AlertCircle, UploadCloud, Copy, Clock } from 'lucide-react';
-import './App.css';
 
 function App() {
   const [currentView, setCurrentView] = useState<string>('upload');
